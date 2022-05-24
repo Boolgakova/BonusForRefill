@@ -13,7 +13,7 @@ public class Main {
         } else {
             amount = balance + refill;
             System.out.println("Баланс Вашего счета " + amount + " рублей");
-            System.out.println("Чтобы получить бонус, пополните счёт на 1000 или более рублей");
+            System.out.println("Чтобы получить бонус, пополните счёт более чем на 1000 рублей");
         }
     }
 }
