@@ -1,11 +1,11 @@
 public class Main {
     public static void main(String[] args) {
         int balance = 500; //изначальный баланс счёта
-        int refill = 1100; //сумма пополнения
+        int refill = 1000; //сумма пополнения
         int bonus; //бонусные баллы
         int amount; //итоговая сумма на счёте
 
-        if (refill >= 1000) {
+        if (refill > 1000) {
             bonus = refill / 100;
             amount = balance + refill + bonus;
             System.out.println("Ваш бонус составил " + bonus + " баллов");
